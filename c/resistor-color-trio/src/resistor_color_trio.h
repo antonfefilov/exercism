@@ -15,9 +15,14 @@ typedef enum {
 } resistor_band_t;
 
 typedef enum {
-  OHMS,
-  KILOOHMS
+  OHMS = 1,
+  KILOOHMS = 1000
 } units_t;
+
+typedef enum {
+  FALSE,
+  TRUE
+} boolean_t;
 
 typedef struct {
   int value;
